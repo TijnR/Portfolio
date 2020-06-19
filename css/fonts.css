@@ -1,0 +1,78 @@
+@font-face {
+  font-family: BrianJames;
+  src: url(../fonts/BrianJames.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BrianJames-Contour;
+  src: url(../fonts/BrianJames-Contour.ttf) format("truetype");
+
+}
+
+@font-face {
+  font-family: Gothic-Black;
+  src: url(../fonts/GothicA1-Black.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Gothic;
+  src: url(../fonts/GothicA1-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gothic-Light;
+  src: url(../fonts/GothicA1-Light.ttf) format("truetype");
+  
+}
+
+@font-face {
+  font-family: Gothic;
+  src: url(../fonts/GothicA1-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gothic-Medium;
+  src: url(../fonts/GothicA1-Medium.ttf) format("truetype");
+
+}
+
+@font-face {
+  font-family: Gothic;
+  src: url(../fonts/GothicA1-Thin.ttf) format("truetype");
+  font-weight: thin;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Alegraya;
+  src: url(../fonts/AlegreyaSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Alegraya-Medium;
+  src: url(../fonts/AlegreyaSans-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Alegraya-Light;
+  src: url(../fonts/AlegreyaSans-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Alegraya-Thin;
+  src: url(../fonts/AlegreyaSans-Thin.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Alegraya-Bold;
+  src: url(../fonts/AlegreyaSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Alegraya-Black;
+  src: url(../fonts/AlegreyaSans-Black.ttf) format("truetype");
+}

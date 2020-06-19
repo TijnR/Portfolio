@@ -1,0 +1,187 @@
+.line-container{
+  width: 80%;
+  height: 10vh;
+}
+
+.main{
+  border: 2px solid red;
+}
+
+.big-text-container{
+  border: 1px solid yellow;
+  height: 100%;
+  width: 30%;
+}
+
+.nokia-container{
+  border: 1px solid blue;
+  height: 100%;
+  width: 40%;
+  position: relative;
+
+}
+
+.red:hover{
+    animation: spin 1s infinite;
+
+}
+
+.big-text-container h3{
+  font-size: 3em;
+  font-family: Alegraya-Medium;
+  opacity:
+}
+
+
+
+.intel-container{
+  border: 1px solid green;
+  height: 100%;
+  width: 30%;
+}
+
+.nokia{
+  width: 200px;
+  border: 1px dotted pink;
+  position: absolute;
+  top:10%;
+  left:30%;
+  transform: rotate(30deg);
+
+
+  transform-origin: center center;
+
+  animation:  3s 1s infinite;
+  animation-delay: 1s;
+  opacity: 0.4;
+}
+
+.nokia:hover{
+
+
+}
+
+.red{
+ z-index: 10;
+ /* cursor: url('../images/nummer_small.png'), auto !important; */
+
+}
+.blue{
+  transform: rotate(30deg) translate(10px, 5px);
+
+}
+
+#nokia-link{
+min-width: 100%;
+min-height:100%;
+background-color: red;
+cursor: url("../images/nummer.png"), pointer;
+  /* cursor: url('http://anuary.com/dev/hp/pad3/public/images/hand-cursor.png'), pointer; */
+  /* cursor: url('http://anuary.com/dev/hp/pad3/public/images/hand-cursor.png'), auto; */
+}
+
+.intel-cpntainer{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact-form{
+  min-height: 60%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh auto;
+  /* border: 1px dotted yellow; */
+
+}
+
+input{
+  width: 100%;
+  margin: 1vh 0;
+  border: 1px solid rgba(3,110,167,0.8);
+  background-color: rgba(3,110,167,0.5);
+  color: white;
+
+  border-radius: 2px;
+  padding: 0.8vh;
+  font-family: Alegraya;
+}
+
+textarea{
+  width: 100%;
+  min-height: 10vh;
+  padding: 0.8vh;
+  border: 1px solid rgba(3,110,167,0.8);
+  background-color: rgba(3,110,167,0.5);
+  color: white;
+
+  border-radius: 2px;
+  padding: 0.8vh;
+  font-family: Alegraya;
+}
+input::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
+	color: rgb(15,15,15);
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgb(15,15,15);
+}
+
+input:-ms-input-placeholder {/* IE 10+ */
+	color: rgb(15,15,15);
+}
+textarea::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
+	color: rgb(15,15,15);
+}
+
+textarea::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgb(15,15,15);
+}
+
+textarea:-ms-input-placeholder {/* IE 10+ */
+	color: rgb(15,15,15);
+}
+
+
+.form_button{
+  width: 80%;
+  height: 4vh;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(15,15,15);
+  color: rgba(3, 110, 167, 0.8);
+  border: 2px solid rgba(3, 110, 167, 0.8);
+  border-radius: 5px;
+  margin: 5vh auto;
+  position: relative;
+  font-family: Gothic-light;
+  transition-duration: 400ms;
+}
+.form_button:hover{
+  border: 0px;
+  color: rgb(15,15,15);
+  background-color: rgba(3, 110, 167, 0.8);
+  transform: scale(1.05);
+}
+
+
+#subject{
+  margin: 3vh 0 1vh 0;
+}
+
+@keyframes spin {
+    0% {transform: rotate(30deg);}
+    10% {transform: rotate(35deg);}
+    20% {transform: rotate(25deg);}
+    30% {transform: rotate(35deg);}
+    40% {transform: rotate(25deg);}
+    50% { transform: rotate(35deg); }
+    60% { transform: rotate(25deg); }
+    70% { transform: rotate(35deg); }
+    80% { transform: rotate(25deg); }
+    90% { transform: rotate(35deg); }
+    100% { transform: rotate(30deg); }
+  }
