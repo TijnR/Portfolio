@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   /* cursor: none; */
+  
 }
 
 body{
@@ -51,7 +52,7 @@ p{
 
 a{
   text-decoration: none;
-  /* cursor: none; */
+
 
 }
 
@@ -246,11 +247,11 @@ a{
 
 .footer{
   display: flex;
+  width: 70%;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  margin-top: 15vh;
-  margin-bottom:  6vh;
+  margin: 15vh auto 6vh auto;
 }
 
 
@@ -261,6 +262,27 @@ a{
   color:red;
   margin-top: 3vh;
   padding:4px;
+}
+.footer-icons{
+  margin: 0 2vw 0 1vw;
+  color: rgb(237,237,237);
+  animation-delay: 400ms;
+  transition-duration: 400ms;
+  width: 10px;
+}
+
+.footer-icons:hover{
+
+  color: rgba(3, 110, 167, 1);
+  transform: scale(1.05);
+}
+.icon-footer-container{
+  display: flex;
+  margin-top: 2vh;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
 .footer-icon:hover{

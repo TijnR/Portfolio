@@ -1,0 +1,143 @@
+.hci-projects-container{
+  width: 80%;
+  margin:  5vh auto;
+  /* height: 900px; */
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.hci-project{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+
+
+
+  margin: 2vh 2vh;
+}
+
+.img{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 30px rgba(237, 237, 237, 0.2);
+  transition-duration: 400ms;
+
+}
+
+.ar-vr{
+
+}
+
+.ar-vr-container{
+  background-image: url(../projects/hci/images/vr_blackwhite.png);
+}
+
+.ar-vr-container:hover{
+  background-image: url(../projects/hci/images/vr.png);
+  box-shadow: 0px 0px 30px rgba(238,2,71,0.4);
+}
+
+.ar-vr-container:hover .tag{
+  animation: trans 0.5s ease-in-out forwards;
+}
+
+.wearables-container{
+  background-image: url(../projects/hci/images/arduino_blackwhite.png);
+}
+
+.wearables-container:hover{
+  background-image: url(../projects/hci/images/arduino.png);
+  box-shadow: 0px 0px 30px rgba(2,137,124,0.6);
+}
+
+.wearables-container:hover .tag{
+  animation: trans 0.5s ease-in-out forwards;
+}
+
+.artificial-container{
+  background-image: url(../projects/hci/images/robot_blackwhite.png);
+}
+
+.artificial-container:hover{
+  background-image: url(../projects/hci/images/robot.png);
+  box-shadow: 0px 0px 30px rgba(66,103,111,0.8);
+}
+
+.artificial-container:hover .tag{
+  animation: trans 0.5s ease-in-out forwards;
+}
+
+.playful-container{
+  background-image: url(../projects/hci/images/interface_blackwhite.png);
+}
+
+.playful-container:hover{
+  background-image: url(../projects/hci/images/interface.png);
+  box-shadow: 0px 0px 30px rgba(123,159,155,0.8);
+}
+
+.playful-container:hover .tag{
+  animation: trans 0.5s ease-in-out forwards;
+}
+
+.gastcollege{
+  height: 250px !important;
+}
+
+.college-container{
+  background-image: url(../projects/hci/images/college_blackwhite.png);
+}
+
+.college-container:hover{
+  background-image: url(../projects/hci/images/college.png);
+  box-shadow: 0px 0px 30px rgba(209,93,8,0.4);
+}
+
+.college-container:hover .tag{
+  animation: trans 0.5s ease-in-out forwards;
+}
+
+.tag{
+  width: 200px;
+  height: 50px;
+  margin: 5vh auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  opacity: 0;
+  background-color: rgb(230, 10, 10);
+}
+
+
+@keyframes trans {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .hci-projects-container{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hci-project{
+    width: 300px;
+    height: 300px;
+    border: 1px dotted yellow;
+    margin: 2vh 0;
+  }
+}
