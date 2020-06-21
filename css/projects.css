@@ -29,7 +29,7 @@ body{
 .project{
   margin-top: 25vh;
   width: 100%;
-  height: 600px;
+  height: 650px;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: auto;
@@ -54,7 +54,7 @@ body{
 
 .spaceX:hover{
   box-shadow: 0px 0px 30px rgba(3, 46, 65, 0.8);
-  background-image: url("../images/SPACEX.png");
+  background-image: url("../images/spaceX.PNG");
 }
 
 
@@ -65,7 +65,7 @@ background-image: url("../images/diep_blackwhite.png");
 .diep:hover{
   /* transform: scale(1.01); */
   box-shadow: 0px 0px 30px rgba(3, 110, 167, 0.4);
-  background-image: url("../images/diep.png");
+  background-image: url("../images/diep.PNG");
 }
 
 .jacht{

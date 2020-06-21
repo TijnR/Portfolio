@@ -12,11 +12,15 @@ html, body {
 }
 
 iframe{
-  cursor: url("../images/cross.png"), pointer;
+  cursor: url("../images/cross.png"), pointer !important;
 }
 
 .ytp-cued-thumbnail-overlay-image{
-  cursor: url("../images/cross.png"), pointer;
+  cursor: url("../images/cross.png"), pointer !important;
+}
+
+.img-mobile{
+  cursor: url("../images/cross.png"), pointer !important;
 }
 
 .background-repeat{
@@ -79,11 +83,13 @@ iframe{
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .intro-image img{
   width: 400px;
   height: 400px;
+  box-shadow: 0px 0px 30px rgba(237, 237, 237, 0.2);
 }
 
 .text-container{

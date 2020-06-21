@@ -106,7 +106,7 @@ html, body {
 
 .cv-container{
   display: grid;
-  height: 700px;
+  height: 900px;
   width: 100%;
   margin: 20vh 0;
   grid-template-columns: repeat(3, 1fr);
@@ -187,6 +187,11 @@ html, body {
 
 .cv-footer-container{
   grid-area: foot;
+}
+
+.cv{
+  width: 100%;
+  margin: 0 auto;
 }
 .icon-container{
   margin: 3vh;
@@ -382,4 +387,34 @@ html, body {
 #challenge{
   font-size: 1.2em;
   font-family: Gothic-Medium
+}
+
+@media screen and (max-width: 1600px) {
+  .cv-container{
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .cv-container{
+    height: 600px;
+  }
+
+  .skills{
+    font-size: 0.8em;
+  }
+
+  .pre{
+    font-size: 0.8em;
+  }
+
+  #challenge{
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cv-container{
+    height: 400px;
+  }
 }

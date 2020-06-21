@@ -63,7 +63,7 @@
 
 .red{
  z-index: 10;
- /* cursor: url('../images/nummer_small.png'), auto !important; */
+ cursor: url('../images/nummer.png'), auto !important;
 
 }
 .blue{

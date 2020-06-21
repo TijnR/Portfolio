@@ -163,6 +163,8 @@ html, body {
 .inspiration-text{
   /* background-color: blue; */
   width: 90%;
+  font-size: 1.5em;
+  line-height: 1.5em;
   margin: 0 auto;
   grid-area: text;
 }
