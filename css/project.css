@@ -72,6 +72,10 @@ html, body {
   height: 400px;
 }
 
+.spaceX:hover{
+  box-shadow: 0px 0px 30px rgba(4, 40, 71, 0.8);
+}
+
 .text-container{
   margin-top: 5vh;
 }
